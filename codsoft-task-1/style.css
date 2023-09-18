@@ -1,0 +1,82 @@
+
+
+#skills .grid div {
+    /* Skill card styling */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#skills .grid div:hover {
+    /* Unique hover effect */
+    transform: scale(1.05);
+}
+
+#skills h3 {
+    /* Skill title styles */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#skills p {
+    /* Skill description styles */
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+
+#contact p {
+    /* Contact information paragraph styles */
+    font-size: 1.25rem;
+}
+
+.contact-link {
+    /* Contact link styles */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-link:hover {
+    /* Hover effect for contact links */
+    transform: translateY(-3px);
+}
+/* Resume Section Styles */
+
+
+#resume p {
+    /* Paragraph styles */
+    font-size: 1.25rem;
+}
+
+.resume-link-container {
+    /* Container for resume link and loading spinner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-link {
+    /* Resume link styles */
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.resume-link:hover {
+    /* Hover effect for resume link */
+    transform: translateY(-3px);
+}
+
+/* Loading spinner styles */
+#resumeDownloading {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
